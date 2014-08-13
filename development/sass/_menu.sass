@@ -1,0 +1,35 @@
+#menuList
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	.btn
+		width: 100%
+		height: 25%
+		position: relative
+		background-color: $azul
+		border-bottom: 1px solid $borde
+		.iconCenter
+			width: 80%
+			height: 73px
+			+is-center()
+			svg 	
+				float: left
+				path, polygon
+					fill: $azul-obscuro
+			.text
+				float: left
+				font-family: "Semibold"
+				font-size: 25px
+				margin-left: 10%
+				p 
+					color: $azul-obscuro
+					position: relative
+					top: 25px
+		&:hover, :active
+			background-color: $celeste
+			svg 
+				path, polygon
+					fill: $blanco
+			.text p 
+				color: $blanco

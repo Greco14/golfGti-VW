@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "Book";
+  src: url("../assets/fonts/vwheadlineot-book-webfont.ttf"); }
+@font-face {
+  font-family: "Semibold";
+  src: url("../assets/fonts/vwheadlineot-semibold-webfont.ttf"); }
+@font-face {
+  font-family: "Black";
+  src: url("../assets/fonts/vwheadlineot-black-webfont.ttf"); }
+#nav {
+  width: 100%;
+  height: 90px;
+  padding: 20px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8; }
+  #nav .vwLogo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-left: 50px;
+    float: left;
+    background-image: url("../assets/images/volkswagen-logo.png"); }
+    #nav .vwLogo p {
+      text-align: center;
+      font-size: 15px;
+      font-family: "Black";
+      position: relative;
+      top: 73px; }
+  #nav .textHead {
+    float: left;
+    font-family: "Black";
+    font-size: 21px;
+    color: black;
+    margin-left: 40px; }
+    #nav .textHead p {
+      position: relative;
+      top: 30px; }
+  #nav .menu-btn {
+    width: 37px;
+    height: 31px;
+    position: absolute;
+    top: 50px;
+    right: 50px; }
+
+#footer {
+  width: 100%;
+  height: 50px;
+  padding: 20px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #cad3d4; }
+  #footer #shareIcon {
+    width: 35px;
+    height: 36px;
+    position: relative;
+    margin-left: 40px;
+    float: left;
+    top: 6px; }
+  #footer .btnConfigura {
+    width: 190px;
+    height: 25px;
+    background-color: #393939;
+    position: absolute;
+    right: 40px;
+    padding: 14px 25px; }
+    #footer .btnConfigura .iconCon {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      float: left; }
+    #footer .btnConfigura .configura-txt {
+      font-family: "Book";
+      float: left;
+      margin-left: 15px;
+      font-size: 18px; }
+      #footer .btnConfigura .configura-txt p {
+        color: #818182; }
+
+#prueba-listo-section, #prueba-manejo-section {
+  background-color: #393939; }
+
+#menuList {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+  #menuList .btn {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background-color: #1576c6;
+    border-bottom: 1px solid #04366f; }
+    #menuList .btn .iconCenter {
+      width: 80%;
+      height: 73px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+      #menuList .btn .iconCenter svg {
+        float: left; }
+        #menuList .btn .iconCenter svg path, #menuList .btn .iconCenter svg polygon {
+          fill: #0b4a88; }
+      #menuList .btn .iconCenter .text {
+        float: left;
+        font-family: "Semibold";
+        font-size: 25px;
+        margin-left: 10%; }
+        #menuList .btn .iconCenter .text p {
+          color: #0b4a88;
+          position: relative;
+          top: 25px; }
+    #menuList .btn:hover, #menuList .btn :active {
+      background-color: #1ca4fc; }
+      #menuList .btn:hover svg path, #menuList .btn:hover svg polygon, #menuList .btn :active svg path, #menuList .btn :active svg polygon {
+        fill: white; }
+      #menuList .btn:hover .text p, #menuList .btn :active .text p {
+        color: white; }
+
+#conoce-section {
+  background-color: white;
+  border-top: 1px solid #393939;
+  display: block; }
+  #conoce-section .colorName {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    padding-top: 55px;
+    position: relative;
+    text-align: center; }
+    #conoce-section .colorName .animateColorName {
+      width: 100%;
+      height: 35px;
+      font-size: 35px;
+      color: black;
+      font-family: "Book"; }
+  #conoce-section .selectorColor {
+    width: 425px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto; }
+    #conoce-section .selectorColor .colorInput {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      float: left;
+      margin-right: 3px;
+      background-position: center top; }
+      #conoce-section .selectorColor .colorInput#color-blanco {
+        background-image: url("../assets/images/conoceGolf/bullets/color-blanco-puro.png"); }
+      #conoce-section .selectorColor .colorInput#color-silver {
+        background-image: url("../assets/images/conoceGolf/bullets/color-reflex-silver.png"); }
+      #conoce-section .selectorColor .colorInput#color-rojo {
+        background-image: url("../assets/images/conoceGolf/bullets/color-rojo-tornado.png"); }
+      #conoce-section .selectorColor .colorInput#color-grey {
+        background-image: url("../assets/images/conoceGolf/bullets/color-platinum-grey.png"); }
+      #conoce-section .selectorColor .colorInput#color-carbon {
+        background-image: url("../assets/images/conoceGolf/bullets/color-carbon-steel.png"); }
+      #conoce-section .selectorColor .colorInput#color-black {
+        background-image: url("../assets/images/conoceGolf/bullets/color-deep-black.png"); }
+      #conoce-section .selectorColor .colorInput#color-blue {
+        background-image: url("../assets/images/conoceGolf/bullets/color-night-blue.png"); }
+      #conoce-section .selectorColor .colorInput#color-silverT {
+        background-image: url("../assets/images/conoceGolf/bullets/color-tungsten-silver.png"); }
+      #conoce-section .selectorColor .colorInput.activeColor {
+        background-position: center bottom; }
+  #conoce-section .carColored {
+    width: 560px;
+    height: 270px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #1ca4fc; }
+  #conoce-section .botonesDown {
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 75px; }
+    #conoce-section .botonesDown .btn-conoce {
+      height: 30px;
+      padding-top: 10px;
+      position: relative;
+      float: left;
+      margin-right: 20px;
+      text-align: center; }
+      #conoce-section .botonesDown .btn-conoce p {
+        font-family: "Semibold";
+        color: white;
+        font-size: 16px;
+        float: left;
+        margin-right: 6px;
+        text-align: center; }
+      #conoce-section .botonesDown .btn-conoce svg polyline {
+        fill: white; }
+      #conoce-section .botonesDown .btn-conoce.btn-car {
+        width: 80px;
+        padding-left: 40px;
+        background-color: #393939; }
+      #conoce-section .botonesDown .btn-conoce.btn-galeria {
+        width: 90px;
+        padding-left: 30px;
+        background-color: #1576c6;
+        margin-right: 0px; }
+
+#equipamiento-section {
+  background-color: #393939; }
+  #equipamiento-section .holdImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; }
+    #equipamiento-section .holdImg img {
+      height: 100%; }
+  #equipamiento-section .holdFlecha {
+    width: 16px;
+    height: 31px;
+    position: absolute;
+    top: 48%;
+    right: 10px; }
+    #equipamiento-section .holdFlecha svg path {
+      fill: white; }
+
+html, body {
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 420px;
+  background-color: #393939; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
+  color: #1a1a1a;
+  text-decoration: none; }
+
+p {
+  margin: 0 auto; }
+
+sub {
+  font-size: 10px;
+  top: -8px;
+  position: relative;
+  color: white;
+  left: -3px;
+  font-family: "Semibold"; }
+
+body {
+  overflow: hidden; }
+
+h2, h3 {
+  font-family: "Semibold";
+  color: #1576c6;
+  font-size: 21px; }
+
+h1, h4 {
+  text-align: center;
+  margin: 0 -1em;
+  padding: 20px 0;
+  color: #a1a1a1;
+  background-color: #393939; }
+
+h4 {
+  border-top: 1px solid #04366f; }
+
+input {
+  outline: none;
+  border: none; }
+
+.autoalpha-0 {
+  opacity: 0;
+  visibility: hidden; }
+
+.align-center {
+  text-align: center; }
+
+.center-all,
+.center-horizontal,
+.center-vertical {
+  position: absolute;
+  margin: auto; }
+
+.center-all,
+.center-horizontal {
+  left: 0;
+  right: 0; }
+
+.center-all,
+.center-vertical {
+  top: 0;
+  bottom: 0; }
+
+.btn-borders {
+  border-radius: 5px; }
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 130px;
+  overflow: hidden; }
+  #wrapper .sectionFull {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; }

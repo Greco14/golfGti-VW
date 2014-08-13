@@ -1,0 +1,7 @@
+mixin list(params)
+	a(href="#")
+		.btn(id="#{params.esEl}")
+			.iconCenter
+				+icon(params.icono)
+				.text
+					p=params.titulo
