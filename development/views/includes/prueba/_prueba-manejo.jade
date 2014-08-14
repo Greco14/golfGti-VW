@@ -1,9 +1,26 @@
 #prueba-manejo-section.sectionFull
-	h2 Pide tu prueba de prueba manejo 
-	p Para agendar tu prueba de manejo, ingresa tus datos y un experto Volkswagen te atenderá.
-	form
-		input
-		input
-		input
-	h4 ¿Dónde podemos localizarte?
-	p Teléfono con lada y no más de 10 dígitos. 
+	.prueba-manejo-content
+		h1 Pide tu prueba de prueba manejo 
+		p Para agendar tu prueba de manejo, ingresa tus datos y un experto Volkswagen te atenderá.
+		form
+			p.form-text-notes.campo-obligatorio (*) Campo Obligatorio
+			input(placeholder="Nombre(s) *")
+			input(placeholder="Apellido(s) *")
+			input(placeholder="Correo electrónico *")
+			h3 ¿Dónde podemos localizarte?
+			p.form-text-notes Teléfono con lada y no más de 10 dígitos.
+			.phones-form
+				.icons
+					.casa 
+						+icon("prueba-casa")
+						div Casa
+					.oficina 
+						+icon("prueba-oficina")
+						div Oficina
+					.celular
+						+icon("prueba-cel")
+						div Celular
+				.phone-inputs
+					input.clave-phone(placeholder="Clave *")
+					input.number-phone(placeholder="Teléfono *")
+		a Enviar 

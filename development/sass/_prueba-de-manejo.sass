@@ -2,33 +2,85 @@
 	font-family:  "Book"
 	background-color: $gris-fondo
 
-#prueba-manejo-section
-
 #prueba-listo-section
 	display: none
-	.prueba-listo-content
+
+.prueba-listo-content, .prueba-manejo-content
+	width: 80%
+	text-align: center
+	+is-center()
+
+	h1, p, a
+		color: $blanco
+	p
+		padding-top: 5px
+		font-size: 15px
+		width: 75%
+	a
+		display: inline-block
 		width: 100%
-		height: 376px
-		text-align: center
-		margin: auto
-		position: absolute
-		top: 0
-		bottom: 0
-		h1, p, a
-			color: $blanco
-		h1
-			font-size: 92px
-			font-family: "Semibold"
-		p
-			padding-top: 5px
-			margin-bottom: 45px
-			font-size: 15px
-			width: 75%
-		a
-			display: inline-block
-			width: 80%
-			height: 27px
-			font-size: 22px
-			padding: 15px
-			background-color: #1576c6
-			border-radius: 2px
+		height: 27px
+		font-size: 22px
+		padding: 15px 0
+		background-color: #1576c6
+		border-radius: 2px
+
+.prueba-manejo-content
+	height: 670px
+	h1
+		font-size: 27px
+		padding: 0 0 10px
+	p
+		margin-bottom: 30px
+	h3
+		color: $blanco
+		font-size: 18px
+		text-align: left
+		margin: 5px 0
+	input
+		width: 95%
+		height: 50px
+		border-radius: 2px
+		margin-bottom: 20px
+	input[placeholder]
+		font-size: 21px
+		font-family: "Book"
+		padding-left: 5%
+	.form-text-notes
+		font-size: 14px
+		color: $gris-icono
+		width: 250px
+		margin-left: 0
+	.campo-obligatorio
+		margin-bottom: 10px
+		width: 135px
+		float: right
+	.phones-form
+		.icons
+			width: 100%
+			height: 85px
+			div
+				width: 33%
+				float: left
+				text-align: center
+				div
+					width: 100%
+					color: $gris-icono
+			svg
+				path
+					fill: $gris-icono
+		.clave-phone
+			float: left
+			width: 25%
+			margin: 0 10px 0 0
+		.number-phone
+			width: 59%
+			
+.prueba-listo-content
+
+	height: 376px
+	h1
+		font-size: 92px
+		font-family: "Semibold"
+	p
+		margin-bottom: 45px
