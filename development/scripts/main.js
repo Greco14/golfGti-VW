@@ -5,11 +5,16 @@ App = {
 
 		conoceGolf= new ConoceGolf();
 		conoceGolf.init();
+
+		windowMannager= new WindowMannager();
+		windowMannager.init();
+		
+		swipeMannager= new SwipeMannager();
+		swipeMannager.init();
 	}
 	
 };
 
 $(function(){
 	App.init();
-
 });

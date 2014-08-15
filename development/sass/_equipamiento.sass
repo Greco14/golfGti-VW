@@ -1,10 +1,18 @@
 #equipamiento-section
 	background-color: $gris-fondo
-	.holdImg
+	display: none
+	overflow: hidden
+	
+	.holdImg, .holdImg2
 		width: 100%
 		height: 100%
 		position: absolute
 		top: 0
+		right: -100%
+		&#swipe-golf-1, #swipe-gti-1
+			right: 0
+		&#swipe-gti-1
+			right: 0
 		img 
 			height: 100%
 	.holdFlecha
@@ -13,6 +21,7 @@
 		position: absolute
 		top: 48%
 		right: 10px
+		z-index: 3
 		svg 
-			path 
+			polygon 
 				fill: $blanco

@@ -1,7 +1,7 @@
 BodyFit= function(){
 	this.settings={
 		body_H : $(window).height(),
-		wrapper : $('#wrapper'),
+		wrapper : $('#menuList'),
 	};
 };
 
@@ -13,6 +13,6 @@ BodyFit.prototype.init= function(){
 BodyFit.prototype.bind= function(){
 	var self = this,
 		s = self.settings;
-	var alto = s.body_H-210
+	var alto = s.body_H-130
 	s.wrapper.css({ height: alto});
 };

@@ -1,0 +1,120 @@
+#detalle-in
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: -95%
+	z-index: 3
+	.blueHold
+		width: 75%
+		height: 100%
+		background-color: #2d2d2d
+		position: relative
+		left: 25%
+		.highlightInfo, .highlightInfo2
+			width: 100%
+			height: 100%
+			position: absolute
+			top: 0
+			display: none
+			&#hightlight-1-golf
+				display: block
+			&#hightlight-1-gti
+				display: block
+			.holdInfoIn
+				width: 360px
+				height: 645px
+				position: relative
+				margin-left: 54px
+				top: 40px
+				.holdUpTitle
+					width: 100%
+					height: auto
+					position: relative
+					padding-bottom: 30px
+					.holdTitle
+						width: 100%
+						height: 40px
+						position: relative
+						margin-bottom: 25px
+						h1 
+							float: left
+							margin-right: 20px
+						.iconCircle
+							width: 25px
+							height: 25px
+							+border-radius(50%)
+							background-color: $negro
+							position: absolute
+							right: 0
+							top: 12px
+							&:after
+								width: 11px
+								height: 3px
+								content: ""
+								background: url('../assets/images/equipamiento/menos.svg')
+								+is-center()
+
+
+				.descriptionsHighlight
+					position: relative
+
+				.botonesDown
+					width: 290px
+					height: 50px
+					position: relative
+					margin: 0 auto
+					.btn-conoce
+						width: 130px
+						height: 30px
+						padding-top: 10px
+						position: relative
+						float: left
+						text-align: center
+						background-color: $azul-obscuro
+						p  
+							font-family: 'Semibold'
+							color: $blanco
+							font-size: 16px
+							margin-right: 6px
+							text-align: center
+						&.btn-gti
+							background-color: $blanco
+							margin-right: 30px
+							p 
+								color: $azul-obscuro
+				.legals
+					position: relative
+					margin-top: 15px
+					p 
+						font-family: 'Book' 
+
+	.holdFlecha
+		width: 16px
+		height: 31px
+		position: absolute
+		top: 48%
+		right: 10px
+		svg 
+			polygon 
+				fill: $blanco
+		.leftArrow
+			width: 100%
+			height: 100%
+			position: absolute
+			top: 0
+			display: none
+		.rightArrow
+			width: 100%
+			height: 100%
+			position: absolute
+			top: 0
+			display: block
+
+
+
+
+
+
+
+

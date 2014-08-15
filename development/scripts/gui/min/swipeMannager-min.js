@@ -1,0 +1,1 @@
+SwipeMannager=function(){this.settings={}},SwipeMannager.prototype.init=function(){var n=this;n.bind()};
